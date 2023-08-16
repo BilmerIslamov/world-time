@@ -1,0 +1,35 @@
+{
+  "name": "my_next_api_project",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.14.3",
+    "@mui/material": "^5.14.5",
+    "@mui/styled-engine-sc": "^5.12.0",
+    "aos": "^2.3.4",
+    "eslint": "8.47.0",
+    "eslint-config-next": "13.4.16",
+    "google-fonts-helper": "^3.3.1",
+    "moment": "^2.29.4",
+    "next": "13.4.16",
+    "nextjs-google-analytics": "^2.3.3",
+    "react": "18.2.0",
+    "react-bootstrap": "^2.8.0",
+    "react-dom": "18.2.0",
+    "react-ga4": "^2.1.0",
+    "react-icons": "^4.10.1",
+    "react-youtube": "^10.1.0",
+    "sass": "^1.65.1",
+    "source-sans-pro": "^3.6.0",
+    "styled-components": "^5.3.11",
+    "youtube-video-js": "^4.0.1"
+  }
+}

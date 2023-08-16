@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url(../fonts/SourceSansPro-SemiBold.ttf);
+    font-weight: 600;
+}
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url(../fonts/SourceSansPro-Black.ttf);
+    font-weight:900 ;
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url(../fonts/SourceSansPro-ExtraLight.ttf);
+    font-weight:200 ;
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url(../fonts/SourceSansPro-Light.ttf);
+    font-weight:100 ;
+}
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url(../fonts/SourceSansPro-Regular.ttf);
+    font-weight:400 ;
+}
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url(../fonts/SourceSansPro-SemiBold.ttf);
+    font-weight: 600    ;
+}
+
+
+@import "../components/header/header.scss";
+@import "../components/footer/Footer.scss";
+@import "../components/home/Home.scss";
+@import "./notFoundArticle.scss";
+@import "./article.scss";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Source Sans Pro", sans-serif;
+}
+body{
+    background: #e6e7e8;
+    
+    
+    &::-webkit-scrollbar{
+        width: 0;
+    }
+}
+.container{
+    max-width: 1140px;
+    width: 100%;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-right: auto;
+    margin-left: auto;
+}
