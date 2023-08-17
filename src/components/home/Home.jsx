@@ -48,18 +48,16 @@ export default async function Api() {
     const letter_two = letter_one.map((item) => {
         return item.category
     })
-    console.log(letter_two)
     
     
     const urlNews = await fetch(`http://sobit2204.pythonanywhere.com/api/v1/category/1`)
     const url = await urlNews.json()
     
+    console.log(url.news_items.slice(-1));
     
-    
-    
-    
-    
-    
+    // const jsonConponent = url.map((item) => {
+        
+    // })
     
     
     
